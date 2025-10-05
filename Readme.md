@@ -1,14 +1,17 @@
-# 🤖 AI Vision Voice Assistant
+# 🦾 AI Object Detection GUI (YOLOv8 + PyQt5)
 
-AI-powered object detection with voice feedback using YOLOv8, OpenCV, and text-to-speech.
+A desktop application for real-time object detection using your webcam, powered by YOLOv8, OpenCV, PyQt5, and text-to-speech audio feedback!
+
+---
 
 ## ✨ Features
-- 📸 Real-time webcam object detection
-- 🎤 Voice announcements of detected objects  
-- 🌐 Web interface (Gradio) and desktop app (PyQt5)
-- 🎯 Adjustable confidence threshold
-- 🔧 Easy to use and deploy
+
+- **Live webcam feed with object detection** (YOLOv8)
+- **Confidence threshold adjustment** with clickable buttons
+- **Text-to-speech audio announcements** for detected objects
+- **Simple PyQt5 GUI:** Announce objects, see detection labels and confidence, quit easily
+- **No cloud required:** Runs on your computer
+
+---
 
 ## 🚀 Quick Start
-
-1. **Install dependencies:**
