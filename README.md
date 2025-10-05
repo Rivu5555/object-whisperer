@@ -51,4 +51,4 @@ https://github.com/Rivu5555/object-whisperer.git
 
 - ## 💡 Author
 
-Protyay Saha ([your@email.com](protyaysahawork@gmail.com))
+Protyay Saha ([protyaysahawork@gmail.com](protyaysahawork@gmail.com))
