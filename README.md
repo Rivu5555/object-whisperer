@@ -15,8 +15,19 @@ A desktop application for real-time object detection using your webcam, powered 
 ---
 
 ## 🚀 Quick Start
-https://github.com/Rivu5555/object-whisperer.git
+Clone the repository:
+  git clone https://github.com/Rivu5555/object-whisperer.git
+  cd object-whisperer
 
+Install required packages:
+  pip install -r requirements.txt
+
+Run from Jupyter Notebook
+  Launch Jupyter:
+    jupyter notebook
+    or
+    jupyter lab
+    
 ## 🖥️ Requirements
 
 - Python 3.8 or newer
@@ -40,6 +51,34 @@ https://github.com/Rivu5555/object-whisperer.git
 - Detected object names and confidence thresholds are shown under the video.
 - Click `Announce` to hear detected objects via TTS.
 - Adjust detection confidence threshold (increase/decrease) with buttons.
+
+- 🧰 Troubleshooting Tips
+Webcam Won’t Start:
+  Ensure no other apps are using the webcam.
+  Restart your computer if the webcam stays black.
+  Check that your webcam driver is installed and enabled.
+PyQt Errors ("Could not load the Qt platform plugin"):
+  Run your script with: python object_detector_gui.py
+If using Anaconda: make sure you have the pyqt package installed (conda install pyqt).
+"NameError: name 'null' is not defined" (when running .ipynb):
+  Don’t run .ipynb notebooks with python filename.ipynb.
+  Always run notebooks using Jupyter Notebook/Lab.
+  You can convert .ipynb to .py first:
+    jupyter nbconvert --to script Prism2.ipynb
+    python Prism2.py
+YOLO or torch errors:
+  Make sure you’re online the first time (weights will auto-download).
+  Update ultralytics with pip install --upgrade ultralytics if you get model errors.
+No speech/sound:
+  Make sure your speakers are on.
+  Check that pygame is installed.
+  Confirm audio (MP3) files can be played outside Python.
+Permission Errors on Windows:
+  Try running the command prompt as Administrator.
+  Avoid saving files to protected folders like C:\Program Files.
+Other Dependency Issues:
+  Delete your virtual environment and create a new one to avoid conflicts.
+  Try using python -m pip install ... to ensure correct Python version.
 
 - ## 📚 Acknowledgements
 
